@@ -31,10 +31,7 @@ be one of “heart attack”, “heart failure”, or “pneumonia”. Hospitals
 outcome should be excluded from the set of hospitals when deciding the rankings.
 Handling ties. If there is a tie for the best hospital for a given outcome, then the hospital names should
 be sorted in alphabetical order and the first hospital in that set should be chosen (i.e. if hospitals “b”, “c”,
-and “f” are tied for best, then hospital “b” should be returned).
-
-The function should check the validity of its arguments. If an invalid state value is passed to best, the
-function should throw an error via the stop function with the exact message “invalid state”. If an invalid
+and “f” are tied for best, then hospital “b” should be returned). The function should check the validity of its arguments. If an invalid state value is passed to best, the function should throw an error via the stop function with the exact message “invalid state”. If an invalid
 outcome value is passed to best, the function should throw an error via the stop function with the exact
 message “invalid outcome”.
 
